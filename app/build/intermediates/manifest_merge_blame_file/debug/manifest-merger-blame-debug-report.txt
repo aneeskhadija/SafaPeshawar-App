@@ -1,0 +1,445 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zeeroapps.wssp"
+4    android:versionCode="4"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:6:5-67
+11-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:7:5-79
+12-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:8:5-76
+13-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:9:5-65
+14-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:10:5-80
+15-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:11:5-81
+16-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:12:5-79
+17-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:13:5-81
+18-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+20-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:15:5-131:19
+24        android:name="com.zeeroapps.wssp.utils.AppController"
+24-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:16:9-44
+25        android:allowBackup="true"
+25-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:17:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] C:\Users\Anees\.gradle\caches\transforms-3\39c01a984c8631f9220152d8886b5b20\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:18:9-43
+29        android:label="@string/app_name"
+29-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:19:9-41
+30        android:supportsRtl="true"
+30-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:20:9-35
+31        android:theme="@style/AppTheme" >
+31-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:21:9-40
+32        <activity
+32-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:23:9-33:20
+33            android:name="com.zeeroapps.wssp.activities.SplashActivity"
+33-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:24:13-54
+34            android:exported="true"
+34-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:25:13-36
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:26:13-56
+36
+37            <!-- android:theme="@style/Theme.MyApplication.NoActionBar"> -->
+38
+39            <intent-filter>
+39-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:29:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:30:17-69
+40-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:31:17-77
+42-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <!--
+47        <activity android:name=".activities.SplashActivity">
+48            <intent-filter>
+49                <action android:name="android.intent.action.MAIN" />
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+52            </intent-filter>
+53        </activity>
+54        -->
+55
+56        <activity
+56-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:44:9-55:20
+57            android:name="com.zeeroapps.wssp.activities.DrawerActivity"
+57-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:45:13-54
+58            android:exported="true"
+58-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:46:13-36
+59            android:label="@string/title_activity_drawer"
+59-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:47:13-58
+60            android:screenOrientation="portrait"
+60-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:48:13-49
+61            android:theme="@style/AppTheme.NoActionBar" >
+61-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:49:13-56
+62            <intent-filter>
+62-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:29:13-32:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:30:17-69
+63-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:30:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:31:17-77
+65-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:31:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!--
+70        <activity
+71            android:name=".activities.DrawerActivity"
+72            android:label="@string/title_activity_drawer"
+73            android:screenOrientation="portrait"
+74            android:theme="@style/AppTheme.NoActionBar">
+75            <intent-filter>
+76                <action android:name="android.intent.action.MAIN" />
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+79            </intent-filter>
+80        </activity>
+81        -->
+82        <activity
+82-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:68:9-70:52
+83            android:name="com.zeeroapps.wssp.activities.LoginActivity"
+83-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:69:13-53
+84            android:screenOrientation="portrait" />
+84-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:70:13-49
+85        <activity
+85-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:71:9-73:52
+86            android:name="com.zeeroapps.wssp.activities.NewComplaintActivity"
+86-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:72:13-60
+87            android:screenOrientation="portrait" />
+87-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:73:13-49
+88        <activity
+88-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:74:9-76:52
+89            android:name="com.zeeroapps.wssp.activities.HelpActivity"
+89-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:75:13-52
+90            android:screenOrientation="portrait" />
+90-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:76:13-49
+91        <activity
+91-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:77:9-79:52
+92            android:name="com.zeeroapps.wssp.activities.ThankYouActivity"
+92-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:78:13-56
+93            android:screenOrientation="portrait" />
+93-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:79:13-49
+94
+95        <service
+95-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:81:9-84:39
+96            android:name="com.zeeroapps.wssp.services.NetworkService"
+96-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:82:13-52
+97            android:enabled="true"
+97-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:83:13-35
+98            android:exported="true" />
+98-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:84:13-36
+99
+100        <!-- Firebase Notifications -->
+101        <service
+101-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:87:9-92:19
+102            android:name="com.zeeroapps.wssp.services.MyFirebaseMessagingService"
+102-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:87:18-69
+103            android:exported="true" >
+103-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:88:13-36
+104            <intent-filter>
+104-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:89:13-91:29
+105                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+105-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:90:17-78
+105-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:90:25-75
+106            </intent-filter>
+107        </service>
+108        <service
+108-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:93:9-98:19
+109            android:name="com.zeeroapps.wssp.services.MyFirebaseInstanceIDService"
+109-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:93:18-70
+110            android:exported="true" >
+110-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:94:13-36
+111            <intent-filter>
+111-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:95:13-97:29
+112                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+112-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:96:17-80
+112-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:96:25-77
+113            </intent-filter>
+114        </service>
+115        <!-- ./Firebase Notifications -->
+116
+117        <receiver
+117-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:101:9-106:20
+118            android:name="com.zeeroapps.wssp.receivers.ConnectivityStateReceiver"
+118-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:101:19-70
+119            android:exported="true" >
+119-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:102:13-36
+120            <intent-filter>
+120-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:103:13-105:29
+121                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+121-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:104:17-79
+121-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:104:25-76
+122            </intent-filter>
+123        </receiver>
+124
+125        <provider
+125-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:108:9-116:20
+126            android:name="androidx.core.content.FileProvider"
+126-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:109:13-62
+127            android:authorities="com.zeeroapps.wssp.fileprovider"
+127-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:110:13-66
+128            android:exported="false"
+128-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:111:13-37
+129            android:grantUriPermissions="true" >
+129-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:112:13-47
+130            <meta-data
+130-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:113:13-115:54
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:114:17-67
+132                android:resource="@xml/file_paths" />
+132-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:115:17-51
+133        </provider>
+134
+135        <activity android:name="com.zeeroapps.wssp.FeedbackActivity" />
+135-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:118:9-119:45
+135-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:118:19-51
+136        <activity
+136-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:120:9-126:45
+137            android:name="com.zeeroapps.wssp.activities.RegisterActivity"
+137-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:121:13-56
+138            android:label="Registration"
+138-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:123:13-41
+139            android:parentActivityName="com.zeeroapps.wssp.activities.LoginActivity"
+139-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:125:13-67
+140            android:screenOrientation="portrait"
+140-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:122:13-49
+141            android:theme="@style/RegAppTheme" />
+141-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:124:13-47
+142
+143        <meta-data
+143-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:128:9-130:67
+144            android:name="io.fabric.ApiKey"
+144-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:129:13-44
+145            android:value="f6be19f0dd38c1a4b5d774d9fa906f8b7d108859" />
+145-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:130:9-65
+146
+147        <service
+147-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:27:9-33:19
+148            android:name="com.google.firebase.components.ComponentDiscoveryService"
+148-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:28:13-84
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+150            android:exported="false" >
+150-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:29:13-37
+151            <meta-data
+151-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+152                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+152-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Anees\.gradle\caches\transforms-3\ed5609e1642d5c91e92b01feb1a19d1c\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Anees\.gradle\caches\transforms-3\9d3362035efefc357124dbd977443682\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
+155                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+155-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Anees\.gradle\caches\transforms-3\9d3362035efefc357124dbd977443682\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Anees\.gradle\caches\transforms-3\9d3362035efefc357124dbd977443682\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\756d992b05ad480d1faf502b7777685e\transformed\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:16:13-18:85
+158                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+158-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\756d992b05ad480d1faf502b7777685e\transformed\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:17:17-115
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\756d992b05ad480d1faf502b7777685e\transformed\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:18:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+161                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+161-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Anees\.gradle\caches\transforms-3\9144a38171f0aec29ed62a09e366be56\transformed\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+164                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+164-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Anees\.gradle\caches\transforms-3\9144a38171f0aec29ed62a09e366be56\transformed\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Anees\.gradle\caches\transforms-3\9144a38171f0aec29ed62a09e366be56\transformed\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\17cb3476816fc2f5df077bcff9b51e44\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+167                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+167-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\17cb3476816fc2f5df077bcff9b51e44\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\17cb3476816fc2f5df077bcff9b51e44\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Anees\.gradle\caches\transforms-3\472172e350d1f2ddf7f51d42ca3f5cce\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Anees\.gradle\caches\transforms-3\472172e350d1f2ddf7f51d42ca3f5cce\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Anees\.gradle\caches\transforms-3\472172e350d1f2ddf7f51d42ca3f5cce\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+172        </service>
+173
+174        <receiver
+174-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+175            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+175-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+176            android:exported="true"
+176-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+178            <intent-filter>
+178-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+179-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+180            </intent-filter>
+181        </receiver>
+182        <!--
+183             FirebaseMessagingService performs security checks at runtime,
+184             but set to not exported to explicitly avoid allowing another app to call it.
+185        -->
+186        <service
+186-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+187            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+187-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+189            android:exported="false" >
+189-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a502f829a4adc66eb82379ed935a76e5\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+190            <intent-filter android:priority="-500" >
+190-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:89:13-91:29
+191                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+191-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:90:17-78
+191-->F:\Clients\WSSP Project\Android App_WSSP\app\src\main\AndroidManifest.xml:90:25-75
+192            </intent-filter>
+193        </service>
+194
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
+198            android:exported="false" >
+198-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
+199        </receiver>
+200        <receiver
+200-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
+201            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+201-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
+203            android:exported="true"
+203-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
+204            android:permission="android.permission.INSTALL_PACKAGES" >
+204-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
+205            <intent-filter>
+205-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
+206                <action android:name="com.android.vending.INSTALL_REFERRER" />
+206-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
+206-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
+207            </intent-filter>
+208        </receiver>
+209
+210        <service
+210-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
+211            android:name="com.google.android.gms.measurement.AppMeasurementService"
+211-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
+212            android:enabled="true"
+212-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
+213            android:exported="false" />
+213-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
+214        <service
+214-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
+215            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+215-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
+216            android:enabled="true"
+216-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
+218            android:permission="android.permission.BIND_JOB_SERVICE" />
+218-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Anees\.gradle\caches\transforms-3\85c9f881d78b54dd70385cfd2f55cde6\transformed\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
+219
+220        <provider
+220-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+221            android:name="com.google.firebase.provider.FirebaseInitProvider"
+221-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+222            android:authorities="com.zeeroapps.wssp.firebaseinitprovider"
+222-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+224            android:exported="false"
+224-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+225            android:initOrder="100" />
+225-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Anees\.gradle\caches\transforms-3\ce140bbca90de2fa4e803407083163bf\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+226
+227        <activity
+227-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Anees\.gradle\caches\transforms-3\441551b073baee7523ef80c80b56c8a3\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+228            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+228-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Anees\.gradle\caches\transforms-3\441551b073baee7523ef80c80b56c8a3\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+229            android:exported="false"
+229-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Anees\.gradle\caches\transforms-3\441551b073baee7523ef80c80b56c8a3\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+230            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+230-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Anees\.gradle\caches\transforms-3\441551b073baee7523ef80c80b56c8a3\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+231
+232        <meta-data
+232-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\2435635623b11afa725a9d575ddc01bb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+233            android:name="com.google.android.gms.version"
+233-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\2435635623b11afa725a9d575ddc01bb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+234            android:value="@integer/google_play_services_version" />
+234-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anees\.gradle\caches\transforms-3\2435635623b11afa725a9d575ddc01bb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+235
+236        <service
+236-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+237            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+237-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+238            android:exported="false" >
+238-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+239            <meta-data
+239-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+240                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+240-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+241                android:value="cct" />
+241-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\a085a34166f10917d966585d07f8c6fc\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+242        </service>
+243        <service
+243-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+244            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+244-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+245            android:exported="false"
+245-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+246            android:permission="android.permission.BIND_JOB_SERVICE" >
+246-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+247        </service>
+248
+249        <receiver
+249-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+250-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+251            android:exported="false" />
+251-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Anees\.gradle\caches\transforms-3\e44d84298c84843c6df12185cb569d2d\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+252    </application>
+253
+254</manifest>
